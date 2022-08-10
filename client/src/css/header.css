@@ -1,0 +1,29 @@
+.Header{
+	padding: 0px 10vw;
+	height: 60px;
+	overflow: hidden;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	background-color: steelblue;
+}
+
+.logo{
+	height: 80px;
+}
+
+button{
+	border-style:solid;
+	border-color: whitesmoke;
+	border-radius: 8px;
+	height: 69%;
+	width: 3em;
+	outline: none;
+	color: whitesmoke;
+}
+
+button:hover{
+	background-color: whitesmoke;
+	color: steelblue;
+	cursor:pointer;
+}

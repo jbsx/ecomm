@@ -1,0 +1,10 @@
+@font-face { font-family: Noto Sans; src: url('Noto Sans Medium Nerd Font Complete.ttf'); }
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Noto Sans', sans-serif;
+	background-color: transparent;
+}
+body{
+	background-color:gainsboro;
+}
