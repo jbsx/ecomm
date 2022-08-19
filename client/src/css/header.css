@@ -1,29 +1,28 @@
 .Header{
 	padding: 0px 10vw;
-	height: 60px;
+	height: 50px;
 	overflow: hidden;
 	display:flex;
 	align-items:center;
 	justify-content:space-between;
-	background-color: steelblue;
+	background-color: var(--main);
 }
 
 .logo{
-	height: 80px;
+	height: 90%;
 }
 
 button{
-	border-style:solid;
-	border-color: whitesmoke;
-	border-radius: 8px;
-	height: 69%;
-	width: 3em;
+    font-size: 1.5em;
+	border-style:none;
+	height: 100%;
+	width: 2.5em;
 	outline: none;
-	color: whitesmoke;
+	color: var(--main2);
 }
 
 button:hover{
-	background-color: whitesmoke;
+	background-color: var(--main2);
 	color: steelblue;
 	cursor:pointer;
 }

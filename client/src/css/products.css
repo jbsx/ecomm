@@ -1,0 +1,45 @@
+.Products{
+ display: flex;
+ flex-wrap:wrap;
+ justify-content:center;
+}
+
+.Product{
+    margin: 10px 5px;
+    display: flex;
+    flex-direction: column;
+    background-color:whitesmoke;
+    border-radius: 6px;
+    height: 300px;
+    width: 200px;
+    overflow:hidden;
+    text-align:right;
+}
+
+.Product:hover{
+    cursor: pointer;
+    outline-style:solid;
+}
+
+.pimg{
+    display: block;
+    max-height: 60%;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+
+.productName{
+    font-size:20px;
+    margin: 0px 5px;
+}
+
+.productPrice{
+    font-size:24px;
+    color:var(--main);
+    margin: 0px 5px;
+}
+
+@keyframes producthover{
+    100%    {}
+}
